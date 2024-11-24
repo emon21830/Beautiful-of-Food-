@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .recipes {
+            padding: 20px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .recipes h2 {
+            margin-bottom: 20px;
+        }
+        .recipe-cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .recipe-card {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+            text-align: left;
+            overflow: hidden;
+        }
+        .recipe-card img {
+            width: 100%;
+        }
+        .recipe-card h3 {
+            margin: 15px;
+        }
+        .recipe-card p {
+            margin: 15px;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Food Delight</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Food Delight</h1>
+        <p>Discover the joy of cooking with our delicious recipes.</p>
+    </section>
+
+    <!-- Featured Recipes -->
+    <section class="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-cards">
+            <div class="recipe-card">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 1">
+                <h3>Spaghetti Bolognese</h3>
+                <p>A classic Italian pasta dish with rich meat sauce.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 2">
+                <h3>Vegetable Stir-Fry</h3>
+                <p>A quick and healthy meal packed with colorful veggies.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 3">
+                <h3>Chocolate Cake</h3>
+                <p>Indulge in this moist and rich chocolate dessert.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Food Delight. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
